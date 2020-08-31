@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>DJSTORE</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="js/OwlCarousel/src/scss/owl.carousel.scss">
+<link rel="stylesheet" href="js/OwlCarousel/src/scss/owl.theme.default.min.css">
+</head>
+<body>
+    <svg version="1.1" style="display: none">
+
+        <symbol viewBox="0 0 28 27" id="more-info">
+            <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="13.502" cy="13.5" r="13" fill="#397DFF" stroke="#397DFF"/>
+                <path d="M13.4151 9V18M9 13.5H18" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+        </symbol>
+
+        <symbol viewBox="0 0 32 32" id="arrow-left">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle r="16" transform="matrix(-1 0 0 1 16 16)" fill="#BAD1FF" fill-opacity="0.1"/>
+                <g clip-path="url(#clip0)">
+                <path d="M10.3925 15.6412L18.8837 7.14994C19.0836 6.95002 19.4043 6.95002 19.6042 7.14994C19.8041 7.34987 19.8041 7.67051 19.6042 7.87044L11.4751 15.9995L19.6042 24.1286C19.8041 24.3285 19.8041 24.6492 19.6042 24.8491C19.5061 24.9472 19.3741 25 19.2458 25C19.1176 25 18.9856 24.951 18.8875 24.8491L10.3963 16.3579C10.1963 16.1617 10.1963 15.8373 10.3925 15.6412Z" fill="white" fill-opacity="0.2"/>
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="16" height="18" fill="white" transform="matrix(-1 0 0 1 24 7)"/>
+                </clipPath>
+                </defs>
+                </svg>                
+        </symbol>
+        
+        <symbol viewBox="0 0 160 160" id="pop-up-sent">
+            <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M159.5 80C159.5 123.907 123.907 159.5 80 159.5C36.0934 159.5 0.5 123.907 0.5 80C0.5 36.0934 36.0934 0.5 80 0.5C123.907 0.5 159.5 36.0934 159.5 80Z" fill="#F2F4F7" stroke="#397DFF"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M79.9997 118.462C101.241 118.462 118.461 101.242 118.461 80C118.461 58.7583 101.241 41.5385 79.9997 41.5385C58.758 41.5385 41.5382 58.7583 41.5382 80C41.5382 101.242 58.758 118.462 79.9997 118.462Z" fill="#397DFF"/>
+                <path d="M95.5896 68.3077L74.1538 89.7436L64.4102 80" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+                
+                 
+        </symbol>
+        
+            
+      </svg>
+    <header class="header">
+        
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img class="header__logo__img" src="img/logo.svg" alt="logo">
+                    <button class="header__close-menu">Закрыть меню</button>               
+                </div>
+                <ul class="header__menu">
+                    <li class="header__menu__item header__menu__item--active"><a href="" class="header__menu__link">
+                       <span class="icon icon-1"></span> Главная
+                    </a></li>
+                    <li class="header__menu__item"><a href="" class="header__menu__link">
+                       <span class="icon icon-2"></span> Проекты
+                    </a></li>
+                    <li class="header__menu__item"><a href="" class="header__menu__link">
+                       <span class="icon icon-3"></span> Услуги
+                    </a></li>
+                    <li class="header__menu__item"><a href="" class="header__menu__link">
+                       <span class="icon icon-4"></span> О компании
+                    </a></li>
+                    <li class="header__menu__item "><a href="" class="header__menu__link">
+                       <span class="icon icon-5"></span>Готовые решения
+                    </a></li>
+                    <li class="header__menu__item"><a href="" class="header__menu__link">
+                       <span class="icon icon-6"></span> Контакты
+                    </a></li>
+               
+                    <!-- <li class="mobile-contacts">
+                        <div class="wrap">
+                            <div class="title">Напишите нам</div>
+                            <a href="mailto:solution@instels.pro" class="mobile-contacts_email">
+                                <div class="mobile-contacts_email_icon"></div>
+                                <div class="mobile-contacts_email_text">solution@instels.pro</div>
+                            </a>
+                        </div>
+                    </li> -->
+                </ul>
+                <a class="content__button--mobile">Заполните бриф</a>
+                <div class="header__social">
+                    <div class="header__social__mail">
+                        <p class="header__mail__text--mobile">Напишите нам</p>
+                        <a href="info@sld-store.ru"class="header__mail__link">info@sld-store.ru</a>
+                    </div>
+                    <div class="header__phone">
+                        <div class="header__phone__icon"></div>
+                        <div class="header__phone__text">
+                            <a href="tel:88126156279"><div class="header__phone__title">Обратный звонок</div></a>
+                            <a href="tel:88126156279" class="header__phone__link">8 812 615-62-79</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-humb ">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        
+    </header>
+
+    <main class="main">
+      <section class="main__section">
+          <div class="main__section__wrapper">
+
+            
+          <div class="main__content__wrapper">
+              <h3 class="content__sub-title">Оснащение конференц-залов</h3>
+              
+              <h2 class="content__title">Видео-конференции</h2>
+              <p class="content__text">Профессиональное оборудование для конференц-залов предназначено для проведения и организации презентаций, совещаний, бизнес-тренингов и онлайн-трансляции контента.</p>
+              <div class="content__button__wrapper">
+                  <a class="button content__button content__button--call">Обратный звонок</a>
+                  <a class="button content__button content__button--brif">Заполните бриф</a>
+              </div>
+             
+
+              <div class="main__content__pop-up">
+                <button class="main__content__pop-up__close" type="button">Закрыть</button>
+
+                <h3 class="main__content__pop-up__title">Готовы обсудить проект?</h3>
+                <p class="main__content__pop-up__text">Заполните форму ниже и мы свяжемся с вами.</p>
+                <form class="main__content__pop-up__form">
+                    <input class="main__content__pop-up__input" type="text" placeholder="Имя*">
+                    <input class="main__content__pop-up__input" type="text" placeholder="Телефон*">
+                    <input 
+                        class="main__content__pop-up__checkbox"
+                        id="main__content__pop-up__checkbox" type="checkbox" checked>
+                    <label class="main__content__pop-up__label" for="main__content__pop-up__checkbox">Я согласен с условиями обработки <a>персональных данных</a>
+                    </label>
+                    
+                    <button class="button main__content__pop-up__button" type="submit">Отправить</button>
+                </form>
+            </div>
+
+            <div class="main__content__pop-up main__content__pop-up--sent">
+                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pop-up-sent"></use></svg>
+                <p>Ваша заявка успешно отправлена.<br>Ожидайте звонка в ближайшее время!</p>
+                <button class="main__content__pop-up__close" type="button">Закрыть</button>
+
+                    
+                    <button class="button main__content__pop-up__button" type="submit">Ок</button>
+            </div>
+          </div>
+
+          <div class="main__slider">
+            <div class="main__slider__wrapper owl-carousel">
+              <div class="slider__wrapper">
+                <p class="slider__number">01</p>
+                <p class="slider__text">Простота использования оснащения позволяет решать функциональные и организационные задачи, оптимизировать работу, проводить мероприятия различного масштаба.</p>
+              </div>
+
+              <div class="slider__wrapper">
+                <p class="slider__number">02</p>
+                <p class="slider__text">Применение инновационных решений для демонстрации культурных и исторических реликвий – актуальная тенденция, которая успешно применяется в музеях и на площадках альтернативного искусства.</p>
+              </div>
+            </div>
+              <div class="main__slider__btn__wrapper ">
+                  <button class="main__slider__btn main__slider__btn--left"></button>
+                  <!-- <button><svg data-type="HTML-logo" class="html-logo my-skills__logo" width="75" height="22"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></button> -->
+                  <button class="main__slider__btn main__slider__btn--right"></button>
+              </div>
+            
+          </div>
+        </div>
+            
+      </section>
+      <section class="main-works">
+          <div class="main-works__wrapper">
+              <div class="main-works__img-1"></div>
+              <div class="main-works__img-2">
+                <div class="main-works__img-voice--1" src="/img/Electro_Voice_1.png" alt="">
+                    <div class="main-works__pop-up main-works__pop-up--1">
+                        <h3 class="main-works__pop-up__title">Electro-Voice<br>EVID 4.2</h3>
+                        <button class="pop-up__close" type="button">Закрыть</button>
+                        <ul class="main-works__pop-up__list">
+                            <li class="main-works__pop-up__list__item">Очень мягкое звучание.</li>
+                            <li class="main-works__pop-up__list__item">Чувствительность — 89 дБ.</li>
+                            <li class="main-works__pop-up__list__item">Пиковая мощность — 400 Вт.</li>
+                            <li class="main-works__pop-up__list__item">Степень влагозащищенности IP34.</li>
+                        </ul>
+                    </div>
+                    <svg data-type="HTML-logo" class="html-logo my-skills__logo" width="75" height="22"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#more-info"></use></svg>
+                </div>
+                <div class="main-works__img-voice--2" src="/img/Electro_Voice_1.png" alt="">
+                    <div class="main-works__pop-up main-works__pop-up--2">
+                        <h3 class="main-works__pop-up__title">Electro-Voice<br>EVID 4.2</h3>
+                        <button class="pop-up__close" type="button">Закрыть</button>
+                        <ul class="main-works__pop-up__list">
+                            <li class="main-works__pop-up__list__item">Очень мягкое звучание.</li>
+                            <li class="main-works__pop-up__list__item">Чувствительность — 89 дБ.</li>
+                            <li class="main-works__pop-up__list__item">Пиковая мощность — 400 Вт.</li>
+                            <li class="main-works__pop-up__list__item">Степень влагозащищенности IP34.</li>
+                        </ul>
+                    </div>
+                    <svg data-type="HTML-logo" class="html-logo my-skills__logo" width="75" height="22"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#more-info"></use></svg>
+                </div>
+                  <!-- <img class="main-works__img-voice--1" src="/img/Electro_Voice_1.png" alt="">
+                  <img class="main-works__img-voice--2" src="/img/Electro_Voice_2.png" alt=""> -->
+                  
+                  
+              </div>
+              <!-- <img src="./img/img1.png" alt="">
+              <img src="./img/img2.png" alt=""> -->
+          </div>
+      </section>
+    </main>
+</body>
+<script src="./js/scripts.js"></script>
+<script src="jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/OwlCarousel/src/js/owl.carousel.js"></script>
+</html>

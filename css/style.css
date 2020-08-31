@@ -808,7 +808,7 @@ select {
     font-size: 18px;
     line-height: 132%; }
     .main-works__pop-up__title::before {
-      content: url("/img/pop-icon.svg");
+      content: url("../img/pop-icon.svg");
       position: absolute;
       top: -25%;
       left: 75%; }
@@ -822,7 +822,7 @@ select {
     margin-top: 10px;
     position: relative; }
     .main-works__pop-up__list__item::before {
-      content: url("/img/pop-up-ellipse.svg");
+      content: url("../img/pop-up-ellipse.svg");
       position: absolute;
       top: -10%;
       left: -10%; }
